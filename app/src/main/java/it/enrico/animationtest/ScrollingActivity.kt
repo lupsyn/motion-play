@@ -13,6 +13,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.view.WindowManager
 import android.widget.LinearLayout
+import it.enrico.animationtest.imageprocessing.BlurredImageView
 
 
 class ScrollingActivity : AppCompatActivity() {
@@ -34,6 +35,9 @@ class ScrollingActivity : AppCompatActivity() {
         w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN, WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN)
         linearLayout.applyWindowInsets(true, true)
         recyclerView.applyWindowInsets(true, true)
+
+        val background = findViewById<BlurredImageView>(R.id.background)
+        background.setImage(R.drawable.app_feedback_image_background_10)
     }
 
     private fun animateStatusBar() {

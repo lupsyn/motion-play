@@ -10,13 +10,11 @@
     tools:context=".ScrollingActivity"
     tools:layout_editor_absoluteY="25dp">
 
-    <ImageView
+    <it.enrico.animationtest.imageprocessing.BlurredImageView
         android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorAccent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/background" />
+        android:background="@color/colorAccent" />
 
     <View
         android:id="@+id/emptyView"
