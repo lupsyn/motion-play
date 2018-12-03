@@ -74,7 +74,7 @@
             android:layout_height="match_parent">
             <CustomAttribute
                 motion:attributeName="BlurredPercentage"
-                motion:customFloatValue="100" />
+                motion:customFloatValue="1" />
         </Constraint>
 
     </ConstraintSet>
