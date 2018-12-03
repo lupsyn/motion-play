@@ -37,7 +37,7 @@ class ScrollingActivity : AppCompatActivity() {
         recyclerView.applyWindowInsets(true, true)
 
         val background = findViewById<BlurredImageView>(R.id.background)
-        background.setImage(R.drawable.app_feedback_image_background_10)
+        background.setImage("https://cdn.content.tuigroup.com/adamtui/2016_9/29_9/5ed4fe2c-6aaa-40bd-805d-a690009b9850/AUS_KIT_011_16WebOriginalCompressed.jpg?i10c=img.resize(width:1080);img.crop(width:1080%2Cheight:608)")
     }
 
     private fun animateStatusBar() {
