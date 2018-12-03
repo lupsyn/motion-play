@@ -37,16 +37,19 @@
             android:id="@+id/holiday_text"
             android:layout_width="0dp"
             android:layout_height="150dp"
-            android:layout_weight="0.5"
-            android:gravity="center"
-            android:text="Test"
-            android:textSize="50sp" />
+            android:layout_weight="0.8"
+            android:ellipsize="end"
+            android:paddingLeft="24dp"
+            android:text="@string/dummyText"
+            android:textColor="#CCFFFFFF"
+            android:textSize="30sp" />
 
         <ImageView
             android:id="@+id/image_logo"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
             android:src="@mipmap/ic_launcher" />
     </LinearLayout>
 

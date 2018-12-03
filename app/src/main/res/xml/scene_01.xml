@@ -17,12 +17,13 @@
                 motion:customColorValue="@android:color/transparent" />
         </Constraint>
 
+
         <Constraint
             android:id="@id/linearLayout3"
             android:layout_height="wrap_content"
-            motion:layout_constraintEnd_toEndOf="parent"
-            motion:layout_constraintStart_toStartOf="parent"
-            motion:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Constraint
             android:id="@id/recyclerView"
@@ -55,12 +56,14 @@
                 motion:attributeName="BackgroundColor"
                 motion:customColorValue="@color/colorPrimary" />
         </Constraint>
+
         <Constraint
             android:id="@id/linearLayout3"
-            android:layout_height="0dp"
-            motion:layout_constraintEnd_toEndOf="parent"
-            motion:layout_constraintStart_toStartOf="parent"
-            motion:layout_constraintTop_toTopOf="parent" />
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recyclerView" />
         <Constraint
             android:id="@id/recyclerView"
             android:layout_height="match_parent"
