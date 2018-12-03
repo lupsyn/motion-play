@@ -15,7 +15,7 @@
         android:id="@+id/image_background_blurred"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:alpha="1"
+        android:alpha="0"
         tools:alpha="1"
         android:scaleType="centerCrop"
         tools:src="@drawable/app_feedback_image_background_10" />

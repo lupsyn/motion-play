@@ -31,6 +31,15 @@
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+        <Constraint
+            android:id="@id/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CustomAttribute
+                motion:attributeName="BlurredPercentage"
+                motion:customFloatValue="0" />
+        </Constraint>
     </ConstraintSet>
 
     <ConstraintSet android:id="@+id/collapsed">
@@ -59,6 +68,14 @@
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@id/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CustomAttribute
+                motion:attributeName="BlurredPercentage"
+                motion:customFloatValue="100" />
+        </Constraint>
 
     </ConstraintSet>
 
